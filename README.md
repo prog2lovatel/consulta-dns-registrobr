@@ -3,7 +3,7 @@ Este programa consulta as informações ns de uma lista de dominios em csv passa
 
 # Requisitos
 
-- PHP 8.1 instalado na maquina que irá executar este programa;
+- PHP 8.1 instalado na máquina que irá executar este programa;
 - VPN;
 
 # Como Funciona
