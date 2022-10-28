@@ -1,5 +1,4 @@
 <?php
-########## Rodar este script com VPN #######
 echo PHP_EOL;
 echo PHP_EOL;
 echo "############ Consulta DNS no RegistroBR ###########";
@@ -37,7 +36,7 @@ if (!file_exists($file)) {
     echo PHP_EOL;
     exit();
 }
-/*
+
 $handle = fopen($file, "r");
 
 while ($row = fgetcsv($handle, 1000, ",")) {
@@ -88,7 +87,7 @@ foreach ($lista_dns as $dns) {
 }
 
 fclose($handle);
-*/
+
 echo PHP_EOL;
 echo "O resultado da consulta está disponível em: \033[0;32m" . __DIR__ . DIRECTORY_SEPARATOR . "resultado.csv\033[0m";
 echo PHP_EOL;
